@@ -1,8 +1,6 @@
 <div align="center">
 
-# Hi, I'm Wellington Aquino 👋
-
-**Full-stack Developer** · Back-end focused · Building scalable and clean solutions
+<img src="header.svg" alt="Header" width="100%"/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/wellington-aquino-046328172/)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:welaquino202122@gmail.com)
@@ -11,7 +9,7 @@
 
 ---
 
-<img src="terminal.svg" alt="Terminal"/>
+<img src="terminal.svg" alt="Terminal" width="100%"/>
 
 ---
 
