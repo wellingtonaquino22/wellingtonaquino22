@@ -1,37 +1,33 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 90">
   <style>
-    .title   { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 24px; font-weight: 700; }
-    .sub     { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 13px; }
-
+    .mono { font-family: 'Courier New', Courier, monospace; }
     @media (prefers-color-scheme: light) {
-      .title   { fill: #24292f; }
-      .sub     { fill: #57606a; }
-      .cover   { fill: #ffffff; }
+      .cover { fill: #ffffff; }
     }
     @media (prefers-color-scheme: dark) {
-      .title   { fill: #e6edf3; }
-      .sub     { fill: #8b949e; }
-      .cover   { fill: #0d1117; }
+      .cover { fill: #0d1117; }
     }
   </style>
 
   <!-- Line 1: title -->
-  <text class="title" x="330" y="36" text-anchor="middle">
+  <text class="mono" x="330" y="36" text-anchor="middle"
+    font-size="22" font-weight="700" fill="#e6edf3">
     Hi, I&#x27;m Wellington Aquino &#x1F44B;
   </text>
 
   <!-- Line 2: subtitle -->
-  <text class="sub" x="330" y="65" text-anchor="middle">
+  <text class="mono" x="330" y="66" text-anchor="middle"
+    font-size="13" fill="#8b949e">
     Full-stack Developer &#xB7; Back-end focused &#xB7; Building scalable and clean solutions
   </text>
 
-  <!-- Cover line 1 (slides right to reveal) -->
+  <!-- Cover line 1 -->
   <rect class="cover" x="0" y="12" width="660" height="30">
     <animate attributeName="x" from="0" to="660" begin="0.2s" dur="1.2s" fill="freeze"/>
   </rect>
 
-  <!-- Cover line 2 (slides right, slower — longer text) -->
-  <rect class="cover" x="0" y="46" width="660" height="26">
-    <animate attributeName="x" from="0" to="660" begin="1.8s" dur="2.0s" fill="freeze"/>
+  <!-- Cover line 2 (starts after line 1 finishes) -->
+  <rect class="cover" x="0" y="48" width="660" height="26">
+    <animate attributeName="x" from="0" to="660" begin="1.6s" dur="2.0s" fill="freeze"/>
   </rect>
 </svg>
