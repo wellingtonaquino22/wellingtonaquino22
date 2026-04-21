@@ -47,7 +47,7 @@
 ### 📈 Activity
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=wellingtonaquino22&theme=github-compact&hide_border=true&area=true&color=58a6ff&line=58a6ff&point=ffffff" alt="Activity Graph" />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=wellingtonaquino22&theme=transparent&hide_border=true&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff&sideLabels=c9d1d9&dates=c9d1d9&sideNums=ffffff&currStreakNum=ffffff" alt="GitHub Streak" />
 </div>
 
 ---
