@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 368">
+  <style>
+    .mono { font-family: 'Courier New', Courier, monospace; font-size: 13px; }
+    @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+  </style>
+
+  <!-- Window background -->
+  <rect width="660" height="368" rx="10" fill="#0d1117"/>
+
+  <!-- Title bar -->
+  <rect width="660" height="38" rx="10" fill="#161b22"/>
+  <rect y="28" width="660" height="10" fill="#161b22"/>
+
+  <!-- Window controls -->
+  <circle cx="22" cy="19" r="6" fill="#ff5f57"/>
+  <circle cx="44" cy="19" r="6" fill="#febc2e"/>
+  <circle cx="66" cy="19" r="6" fill="#28c840"/>
+
+  <!-- Title bar text -->
+  <text x="330" y="24" text-anchor="middle" font-family="'Courier New', Courier, monospace" font-size="12" fill="#8b949e">about.json — bash</text>
+
+  <defs>
+    <clipPath id="c1"><rect x="20" y="50" height="22" width="0"><animate attributeName="width" from="0" to="630" begin="0.3s" dur="1.0s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c2"><rect x="20" y="72" height="22" width="0"><animate attributeName="width" from="0" to="630" begin="1.5s" dur="0.1s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c3"><rect x="20" y="94" height="22" width="0"><animate attributeName="width" from="0" to="630" begin="1.7s" dur="0.7s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c4"><rect x="20" y="116" height="22" width="0"><animate attributeName="width" from="0" to="630" begin="2.5s" dur="0.7s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c5"><rect x="20" y="138" height="22" width="0"><animate attributeName="width" from="0" to="630" begin="3.3s" dur="0.5s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c6"><rect x="20" y="160" height="22" width="0"><animate attributeName="width" from="0" to="630" begin="3.9s" dur="1.2s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c7"><rect x="20" y="182" height="22" width="0"><animate attributeName="width" from="0" to="630" begin="5.2s" dur="1.1s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c8"><rect x="20" y="204" height="22" width="0"><animate attributeName="width" from="0" to="630" begin="6.4s" dur="0.8s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c9"><rect x="20" y="226" height="22" width="0"><animate attributeName="width" from="0" to="630" begin="7.3s" dur="0.9s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c10"><rect x="20" y="248" height="22" width="0"><animate attributeName="width" from="0" to="630" begin="8.3s" dur="0.9s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c11"><rect x="20" y="270" height="22" width="0"><animate attributeName="width" from="0" to="630" begin="9.3s" dur="0.9s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c12"><rect x="20" y="292" height="22" width="0"><animate attributeName="width" from="0" to="630" begin="10.3s" dur="0.1s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c13"><rect x="20" y="314" height="22" width="0"><animate attributeName="width" from="0" to="630" begin="10.5s" dur="0.5s" fill="freeze"/></rect></clipPath>
+  </defs>
+
+  <!-- Line 1: command -->
+  <text class="mono" y="66" clip-path="url(#c1)">
+    <tspan x="20" fill="#3fb950">wellington@dev</tspan><tspan fill="#c9d1d9">:~$ </tspan><tspan fill="#58a6ff">cat</tspan><tspan fill="#c9d1d9"> about.json</tspan>
+  </text>
+
+  <!-- Line 2: { -->
+  <text class="mono" y="88" clip-path="url(#c2)">
+    <tspan x="20" fill="#c9d1d9">{</tspan>
+  </text>
+
+  <!-- Line 3: name -->
+  <text class="mono" y="110" clip-path="url(#c3)">
+    <tspan x="20" fill="#c9d1d9">  </tspan><tspan fill="#79c0ff">"name"</tspan><tspan fill="#c9d1d9">: </tspan><tspan fill="#a5d6ff">"Wellington Aquino"</tspan><tspan fill="#c9d1d9">,</tspan>
+  </text>
+
+  <!-- Line 4: role -->
+  <text class="mono" y="132" clip-path="url(#c4)">
+    <tspan x="20" fill="#c9d1d9">  </tspan><tspan fill="#79c0ff">"role"</tspan><tspan fill="#c9d1d9">: </tspan><tspan fill="#a5d6ff">"Full-stack Developer"</tspan><tspan fill="#c9d1d9">,</tspan>
+  </text>
+
+  <!-- Line 5: focus -->
+  <text class="mono" y="154" clip-path="url(#c5)">
+    <tspan x="20" fill="#c9d1d9">  </tspan><tspan fill="#79c0ff">"focus"</tspan><tspan fill="#c9d1d9">: </tspan><tspan fill="#a5d6ff">"Back-end"</tspan><tspan fill="#c9d1d9">,</tspan>
+  </text>
+
+  <!-- Line 6: languages -->
+  <text class="mono" y="176" clip-path="url(#c6)">
+    <tspan x="20" fill="#c9d1d9">  </tspan><tspan fill="#79c0ff">"languages"</tspan><tspan fill="#c9d1d9">: [</tspan><tspan fill="#a5d6ff">"Java"</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">"Go"</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">"TypeScript"</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">"Python"</tspan><tspan fill="#c9d1d9">],</tspan>
+  </text>
+
+  <!-- Line 7: frontend -->
+  <text class="mono" y="198" clip-path="url(#c7)">
+    <tspan x="20" fill="#c9d1d9">  </tspan><tspan fill="#79c0ff">"frontend"</tspan><tspan fill="#c9d1d9">: [</tspan><tspan fill="#a5d6ff">"React"</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">"Next.js"</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">"Tailwind CSS"</tspan><tspan fill="#c9d1d9">],</tspan>
+  </text>
+
+  <!-- Line 8: backend -->
+  <text class="mono" y="220" clip-path="url(#c8)">
+    <tspan x="20" fill="#c9d1d9">  </tspan><tspan fill="#79c0ff">"backend"</tspan><tspan fill="#c9d1d9">: [</tspan><tspan fill="#a5d6ff">"Node.js"</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">"GraphQL"</tspan><tspan fill="#c9d1d9">],</tspan>
+  </text>
+
+  <!-- Line 9: devops -->
+  <text class="mono" y="242" clip-path="url(#c9)">
+    <tspan x="20" fill="#c9d1d9">  </tspan><tspan fill="#79c0ff">"devops"</tspan><tspan fill="#c9d1d9">: [</tspan><tspan fill="#a5d6ff">"AWS"</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">"Docker"</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">"CI/CD"</tspan><tspan fill="#c9d1d9">],</tspan>
+  </text>
+
+  <!-- Line 10: other -->
+  <text class="mono" y="264" clip-path="url(#c10)">
+    <tspan x="20" fill="#c9d1d9">  </tspan><tspan fill="#79c0ff">"other"</tspan><tspan fill="#c9d1d9">: [</tspan><tspan fill="#a5d6ff">"RPA"</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">"Automacao"</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">"SaaS"</tspan><tspan fill="#c9d1d9">],</tspan>
+  </text>
+
+  <!-- Line 11: contact -->
+  <text class="mono" y="286" clip-path="url(#c11)">
+    <tspan x="20" fill="#c9d1d9">  </tspan><tspan fill="#79c0ff">"contact"</tspan><tspan fill="#c9d1d9">: </tspan><tspan fill="#a5d6ff">"welaquino202122@gmail.com"</tspan>
+  </text>
+
+  <!-- Line 12: } -->
+  <text class="mono" y="308" clip-path="url(#c12)">
+    <tspan x="20" fill="#c9d1d9">}</tspan>
+  </text>
+
+  <!-- Line 13: final prompt -->
+  <text class="mono" y="330" clip-path="url(#c13)">
+    <tspan x="20" fill="#3fb950">wellington@dev</tspan><tspan fill="#c9d1d9">:~$ </tspan>
+  </text>
+
+  <!-- Blinking cursor -->
+  <rect x="160" y="317" width="8" height="14" fill="#c9d1d9" opacity="0" style="animation: blink 1s step-end 11s infinite;">
+    <set attributeName="opacity" to="1" begin="11s"/>
+  </rect>
+</svg>
