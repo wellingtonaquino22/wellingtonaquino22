@@ -16,89 +16,92 @@
   <circle cx="44" cy="19" r="6" fill="#febc2e"/>
   <circle cx="66" cy="19" r="6" fill="#28c840"/>
 
-  <!-- Title bar text -->
+  <!-- Title -->
   <text x="330" y="24" text-anchor="middle" font-family="'Courier New', Courier, monospace" font-size="12" fill="#8b949e">about.json — bash</text>
 
-  <defs>
-    <clipPath id="c1"><rect x="0" y="50" height="22" width="0"><animate attributeName="width" from="0" to="660" begin="0.3s" dur="1.0s" fill="freeze"/></rect></clipPath>
-    <clipPath id="c2"><rect x="0" y="72" height="22" width="0"><animate attributeName="width" from="0" to="660" begin="1.5s" dur="0.1s" fill="freeze"/></rect></clipPath>
-    <clipPath id="c3"><rect x="0" y="94" height="22" width="0"><animate attributeName="width" from="0" to="660" begin="1.7s" dur="0.7s" fill="freeze"/></rect></clipPath>
-    <clipPath id="c4"><rect x="0" y="116" height="22" width="0"><animate attributeName="width" from="0" to="660" begin="2.5s" dur="0.7s" fill="freeze"/></rect></clipPath>
-    <clipPath id="c5"><rect x="0" y="138" height="22" width="0"><animate attributeName="width" from="0" to="660" begin="3.3s" dur="0.5s" fill="freeze"/></rect></clipPath>
-    <clipPath id="c6"><rect x="0" y="160" height="22" width="0"><animate attributeName="width" from="0" to="660" begin="3.9s" dur="1.2s" fill="freeze"/></rect></clipPath>
-    <clipPath id="c7"><rect x="0" y="182" height="22" width="0"><animate attributeName="width" from="0" to="660" begin="5.2s" dur="1.1s" fill="freeze"/></rect></clipPath>
-    <clipPath id="c8"><rect x="0" y="204" height="22" width="0"><animate attributeName="width" from="0" to="660" begin="6.4s" dur="0.8s" fill="freeze"/></rect></clipPath>
-    <clipPath id="c9"><rect x="0" y="226" height="22" width="0"><animate attributeName="width" from="0" to="660" begin="7.3s" dur="0.9s" fill="freeze"/></rect></clipPath>
-    <clipPath id="c10"><rect x="0" y="248" height="22" width="0"><animate attributeName="width" from="0" to="660" begin="8.3s" dur="0.9s" fill="freeze"/></rect></clipPath>
-    <clipPath id="c11"><rect x="0" y="270" height="22" width="0"><animate attributeName="width" from="0" to="660" begin="9.3s" dur="0.9s" fill="freeze"/></rect></clipPath>
-    <clipPath id="c12"><rect x="0" y="292" height="22" width="0"><animate attributeName="width" from="0" to="660" begin="10.3s" dur="0.1s" fill="freeze"/></rect></clipPath>
-    <clipPath id="c13"><rect x="0" y="314" height="22" width="0"><animate attributeName="width" from="0" to="660" begin="10.5s" dur="0.5s" fill="freeze"/></rect></clipPath>
-  </defs>
+  <!-- ═══ ALL TEXT (rendered below covers) ═══ -->
 
-  <!-- Line 1: command -->
-  <text class="mono" x="20" y="66" clip-path="url(#c1)">
+  <text class="mono" x="20" y="66">
     <tspan fill="#3fb950">wellington@dev</tspan><tspan fill="#c9d1d9">:~$ </tspan><tspan fill="#58a6ff">cat</tspan><tspan fill="#c9d1d9"> about.json</tspan>
   </text>
-
-  <!-- Line 2: { -->
-  <text class="mono" x="20" y="88" clip-path="url(#c2)">
+  <text class="mono" x="20" y="88">
     <tspan fill="#c9d1d9">{</tspan>
   </text>
-
-  <!-- Line 3: name -->
-  <text class="mono" x="20" y="110" clip-path="url(#c3)">
+  <text class="mono" x="20" y="110">
     <tspan fill="#c9d1d9">  </tspan><tspan fill="#79c0ff">"name"</tspan><tspan fill="#c9d1d9">: </tspan><tspan fill="#a5d6ff">"Wellington Aquino"</tspan><tspan fill="#c9d1d9">,</tspan>
   </text>
-
-  <!-- Line 4: role -->
-  <text class="mono" x="20" y="132" clip-path="url(#c4)">
+  <text class="mono" x="20" y="132">
     <tspan fill="#c9d1d9">  </tspan><tspan fill="#79c0ff">"role"</tspan><tspan fill="#c9d1d9">: </tspan><tspan fill="#a5d6ff">"Full-stack Developer"</tspan><tspan fill="#c9d1d9">,</tspan>
   </text>
-
-  <!-- Line 5: focus -->
-  <text class="mono" x="20" y="154" clip-path="url(#c5)">
+  <text class="mono" x="20" y="154">
     <tspan fill="#c9d1d9">  </tspan><tspan fill="#79c0ff">"focus"</tspan><tspan fill="#c9d1d9">: </tspan><tspan fill="#a5d6ff">"Back-end"</tspan><tspan fill="#c9d1d9">,</tspan>
   </text>
-
-  <!-- Line 6: languages -->
-  <text class="mono" x="20" y="176" clip-path="url(#c6)">
+  <text class="mono" x="20" y="176">
     <tspan fill="#c9d1d9">  </tspan><tspan fill="#79c0ff">"languages"</tspan><tspan fill="#c9d1d9">: [</tspan><tspan fill="#a5d6ff">"Java"</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">"Go"</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">"TypeScript"</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">"Python"</tspan><tspan fill="#c9d1d9">],</tspan>
   </text>
-
-  <!-- Line 7: frontend -->
-  <text class="mono" x="20" y="198" clip-path="url(#c7)">
+  <text class="mono" x="20" y="198">
     <tspan fill="#c9d1d9">  </tspan><tspan fill="#79c0ff">"frontend"</tspan><tspan fill="#c9d1d9">: [</tspan><tspan fill="#a5d6ff">"React"</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">"Next.js"</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">"Tailwind CSS"</tspan><tspan fill="#c9d1d9">],</tspan>
   </text>
-
-  <!-- Line 8: backend -->
-  <text class="mono" x="20" y="220" clip-path="url(#c8)">
+  <text class="mono" x="20" y="220">
     <tspan fill="#c9d1d9">  </tspan><tspan fill="#79c0ff">"backend"</tspan><tspan fill="#c9d1d9">: [</tspan><tspan fill="#a5d6ff">"Node.js"</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">"GraphQL"</tspan><tspan fill="#c9d1d9">],</tspan>
   </text>
-
-  <!-- Line 9: devops -->
-  <text class="mono" x="20" y="242" clip-path="url(#c9)">
+  <text class="mono" x="20" y="242">
     <tspan fill="#c9d1d9">  </tspan><tspan fill="#79c0ff">"devops"</tspan><tspan fill="#c9d1d9">: [</tspan><tspan fill="#a5d6ff">"AWS"</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">"Docker"</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">"CI/CD"</tspan><tspan fill="#c9d1d9">],</tspan>
   </text>
-
-  <!-- Line 10: other -->
-  <text class="mono" x="20" y="264" clip-path="url(#c10)">
+  <text class="mono" x="20" y="264">
     <tspan fill="#c9d1d9">  </tspan><tspan fill="#79c0ff">"other"</tspan><tspan fill="#c9d1d9">: [</tspan><tspan fill="#a5d6ff">"RPA"</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">"Automacao"</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">"SaaS"</tspan><tspan fill="#c9d1d9">],</tspan>
   </text>
-
-  <!-- Line 11: contact -->
-  <text class="mono" x="20" y="286" clip-path="url(#c11)">
+  <text class="mono" x="20" y="286">
     <tspan fill="#c9d1d9">  </tspan><tspan fill="#79c0ff">"contact"</tspan><tspan fill="#c9d1d9">: </tspan><tspan fill="#a5d6ff">"welaquino202122@gmail.com"</tspan>
   </text>
-
-  <!-- Line 12: } -->
-  <text class="mono" x="20" y="308" clip-path="url(#c12)">
+  <text class="mono" x="20" y="308">
     <tspan fill="#c9d1d9">}</tspan>
   </text>
-
-  <!-- Line 13: final prompt -->
-  <text class="mono" x="20" y="330" clip-path="url(#c13)">
+  <text class="mono" x="20" y="330">
     <tspan fill="#3fb950">wellington@dev</tspan><tspan fill="#c9d1d9">:~$ </tspan>
   </text>
+
+  <!-- ═══ COVER RECTANGLES (slide right to reveal text) ═══ -->
+
+  <rect x="20" y="50" width="640" height="22" fill="#0d1117">
+    <animate attributeName="x" from="20" to="660" begin="0.3s" dur="1.0s" fill="freeze"/>
+  </rect>
+  <rect x="20" y="72" width="640" height="22" fill="#0d1117">
+    <animate attributeName="x" from="20" to="660" begin="1.5s" dur="0.1s" fill="freeze"/>
+  </rect>
+  <rect x="20" y="94" width="640" height="22" fill="#0d1117">
+    <animate attributeName="x" from="20" to="660" begin="1.7s" dur="0.7s" fill="freeze"/>
+  </rect>
+  <rect x="20" y="116" width="640" height="22" fill="#0d1117">
+    <animate attributeName="x" from="20" to="660" begin="2.5s" dur="0.7s" fill="freeze"/>
+  </rect>
+  <rect x="20" y="138" width="640" height="22" fill="#0d1117">
+    <animate attributeName="x" from="20" to="660" begin="3.3s" dur="0.5s" fill="freeze"/>
+  </rect>
+  <rect x="20" y="160" width="640" height="22" fill="#0d1117">
+    <animate attributeName="x" from="20" to="660" begin="3.9s" dur="1.2s" fill="freeze"/>
+  </rect>
+  <rect x="20" y="182" width="640" height="22" fill="#0d1117">
+    <animate attributeName="x" from="20" to="660" begin="5.2s" dur="1.1s" fill="freeze"/>
+  </rect>
+  <rect x="20" y="204" width="640" height="22" fill="#0d1117">
+    <animate attributeName="x" from="20" to="660" begin="6.4s" dur="0.8s" fill="freeze"/>
+  </rect>
+  <rect x="20" y="226" width="640" height="22" fill="#0d1117">
+    <animate attributeName="x" from="20" to="660" begin="7.3s" dur="0.9s" fill="freeze"/>
+  </rect>
+  <rect x="20" y="248" width="640" height="22" fill="#0d1117">
+    <animate attributeName="x" from="20" to="660" begin="8.3s" dur="0.9s" fill="freeze"/>
+  </rect>
+  <rect x="20" y="270" width="640" height="22" fill="#0d1117">
+    <animate attributeName="x" from="20" to="660" begin="9.3s" dur="0.9s" fill="freeze"/>
+  </rect>
+  <rect x="20" y="292" width="640" height="22" fill="#0d1117">
+    <animate attributeName="x" from="20" to="660" begin="10.3s" dur="0.1s" fill="freeze"/>
+  </rect>
+  <rect x="20" y="314" width="640" height="22" fill="#0d1117">
+    <animate attributeName="x" from="20" to="660" begin="10.5s" dur="0.5s" fill="freeze"/>
+  </rect>
 
   <!-- Blinking cursor -->
   <rect x="160" y="317" width="8" height="14" fill="#c9d1d9" opacity="0" style="animation: blink 1s step-end 11s infinite;">
