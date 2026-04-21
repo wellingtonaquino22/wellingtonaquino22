@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 368">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 460">
   <style>
-    .mono { font-family: 'Courier New', Courier, monospace; font-size: 13px; }
+    .mono { font-family: 'Courier New', Courier, monospace; font-size: 13px; font-weight: 600; }
     @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
   </style>
 
   <!-- Window background -->
-  <rect width="660" height="368" rx="10" fill="#0d1117"/>
+  <rect width="660" height="460" rx="10" fill="#0d1117"/>
 
   <!-- Title bar -->
   <rect width="660" height="38" rx="10" fill="#161b22"/>
@@ -19,92 +19,58 @@
   <!-- Title -->
   <text x="330" y="24" text-anchor="middle" font-family="'Courier New', Courier, monospace" font-size="12" fill="#8b949e">about.json — bash</text>
 
-  <!-- ═══ ALL TEXT (rendered below covers) ═══ -->
+  <!-- ═══ TEXT LINES ═══ -->
 
-  <text class="mono" x="20" y="66">
-    <tspan fill="#3fb950">wellington@dev</tspan><tspan fill="#c9d1d9">:~$ </tspan><tspan fill="#58a6ff">cat</tspan><tspan fill="#c9d1d9"> about.json</tspan>
-  </text>
-  <text class="mono" x="20" y="88">
-    <tspan fill="#c9d1d9">{</tspan>
-  </text>
-  <text class="mono" x="20" y="110">
-    <tspan fill="#c9d1d9">  </tspan><tspan fill="#79c0ff">"name"</tspan><tspan fill="#c9d1d9">: </tspan><tspan fill="#a5d6ff">"Wellington Aquino"</tspan><tspan fill="#c9d1d9">,</tspan>
-  </text>
-  <text class="mono" x="20" y="132">
-    <tspan fill="#c9d1d9">  </tspan><tspan fill="#79c0ff">"role"</tspan><tspan fill="#c9d1d9">: </tspan><tspan fill="#a5d6ff">"Full-stack Developer"</tspan><tspan fill="#c9d1d9">,</tspan>
-  </text>
-  <text class="mono" x="20" y="154">
-    <tspan fill="#c9d1d9">  </tspan><tspan fill="#79c0ff">"focus"</tspan><tspan fill="#c9d1d9">: </tspan><tspan fill="#a5d6ff">"Back-end"</tspan><tspan fill="#c9d1d9">,</tspan>
-  </text>
-  <text class="mono" x="20" y="176">
-    <tspan fill="#c9d1d9">  </tspan><tspan fill="#79c0ff">"languages"</tspan><tspan fill="#c9d1d9">: [</tspan><tspan fill="#a5d6ff">"Java"</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">"Go"</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">"TypeScript"</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">"Python"</tspan><tspan fill="#c9d1d9">],</tspan>
-  </text>
-  <text class="mono" x="20" y="198">
-    <tspan fill="#c9d1d9">  </tspan><tspan fill="#79c0ff">"frontend"</tspan><tspan fill="#c9d1d9">: [</tspan><tspan fill="#a5d6ff">"React"</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">"Next.js"</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">"Tailwind CSS"</tspan><tspan fill="#c9d1d9">],</tspan>
-  </text>
-  <text class="mono" x="20" y="220">
-    <tspan fill="#c9d1d9">  </tspan><tspan fill="#79c0ff">"backend"</tspan><tspan fill="#c9d1d9">: [</tspan><tspan fill="#a5d6ff">"Node.js"</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">"GraphQL"</tspan><tspan fill="#c9d1d9">],</tspan>
-  </text>
-  <text class="mono" x="20" y="242">
-    <tspan fill="#c9d1d9">  </tspan><tspan fill="#79c0ff">"devops"</tspan><tspan fill="#c9d1d9">: [</tspan><tspan fill="#a5d6ff">"AWS"</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">"Docker"</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">"CI/CD"</tspan><tspan fill="#c9d1d9">],</tspan>
-  </text>
-  <text class="mono" x="20" y="264">
-    <tspan fill="#c9d1d9">  </tspan><tspan fill="#79c0ff">"other"</tspan><tspan fill="#c9d1d9">: [</tspan><tspan fill="#a5d6ff">"RPA"</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">"Automacao"</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">"SaaS"</tspan><tspan fill="#c9d1d9">],</tspan>
-  </text>
-  <text class="mono" x="20" y="286">
-    <tspan fill="#c9d1d9">  </tspan><tspan fill="#79c0ff">"contact"</tspan><tspan fill="#c9d1d9">: </tspan><tspan fill="#a5d6ff">"welaquino202122@gmail.com"</tspan>
-  </text>
-  <text class="mono" x="20" y="308">
-    <tspan fill="#c9d1d9">}</tspan>
-  </text>
-  <text class="mono" x="20" y="330">
-    <tspan fill="#3fb950">wellington@dev</tspan><tspan fill="#c9d1d9">:~$ </tspan>
-  </text>
+  <!-- 1 --> <text class="mono" x="20" y="58"><tspan fill="#3fb950">/wellington</tspan><tspan fill="#c9d1d9"> $ </tspan><tspan fill="#58a6ff">cat</tspan><tspan fill="#c9d1d9"> about.json</tspan></text>
+  <!-- 2 --> <text class="mono" x="20" y="76"><tspan fill="#c9d1d9">{</tspan></text>
+  <!-- 3 --> <text class="mono" x="20" y="94"><tspan fill="#c9d1d9">  </tspan><tspan fill="#79c0ff">"name"</tspan><tspan fill="#c9d1d9">: </tspan><tspan fill="#a5d6ff">"Wellington Aquino"</tspan><tspan fill="#c9d1d9">,</tspan></text>
+  <!-- 4 --> <text class="mono" x="20" y="112"><tspan fill="#c9d1d9">  </tspan><tspan fill="#79c0ff">"role"</tspan><tspan fill="#c9d1d9">: </tspan><tspan fill="#a5d6ff">"Full-stack Developer"</tspan><tspan fill="#c9d1d9">,</tspan></text>
+  <!-- 5 --> <text class="mono" x="20" y="130"><tspan fill="#c9d1d9">  </tspan><tspan fill="#79c0ff">"focus"</tspan><tspan fill="#c9d1d9">: </tspan><tspan fill="#a5d6ff">"Back-end"</tspan><tspan fill="#c9d1d9">,</tspan></text>
+  <!-- 6 --> <text class="mono" x="20" y="148"><tspan fill="#c9d1d9">  </tspan><tspan fill="#79c0ff">"categories"</tspan><tspan fill="#c9d1d9">: [</tspan></text>
+  <!-- 7 --> <text class="mono" x="20" y="166"><tspan fill="#c9d1d9">    {</tspan></text>
+  <!-- 8 --> <text class="mono" x="20" y="184"><tspan fill="#c9d1d9">      </tspan><tspan fill="#79c0ff">"name"</tspan><tspan fill="#c9d1d9">: </tspan><tspan fill="#a5d6ff">"Languages"</tspan><tspan fill="#c9d1d9">,</tspan></text>
+  <!-- 9 --> <text class="mono" x="20" y="202"><tspan fill="#c9d1d9">      </tspan><tspan fill="#79c0ff">"items"</tspan><tspan fill="#c9d1d9">: [</tspan><tspan fill="#a5d6ff">"Java"</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">"Go"</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">"TypeScript"</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">"Python"</tspan><tspan fill="#c9d1d9">]</tspan></text>
+  <!-- 10 --> <text class="mono" x="20" y="220"><tspan fill="#c9d1d9">    },</tspan></text>
+  <!-- 11 --> <text class="mono" x="20" y="238"><tspan fill="#c9d1d9">    {</tspan></text>
+  <!-- 12 --> <text class="mono" x="20" y="256"><tspan fill="#c9d1d9">      </tspan><tspan fill="#79c0ff">"name"</tspan><tspan fill="#c9d1d9">: </tspan><tspan fill="#a5d6ff">"Frontend"</tspan><tspan fill="#c9d1d9">,</tspan></text>
+  <!-- 13 --> <text class="mono" x="20" y="274"><tspan fill="#c9d1d9">      </tspan><tspan fill="#79c0ff">"items"</tspan><tspan fill="#c9d1d9">: [</tspan><tspan fill="#a5d6ff">"React"</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">"Next.js"</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">"Tailwind CSS"</tspan><tspan fill="#c9d1d9">]</tspan></text>
+  <!-- 14 --> <text class="mono" x="20" y="292"><tspan fill="#c9d1d9">    },</tspan></text>
+  <!-- 15 --> <text class="mono" x="20" y="310"><tspan fill="#c9d1d9">    {</tspan></text>
+  <!-- 16 --> <text class="mono" x="20" y="328"><tspan fill="#c9d1d9">      </tspan><tspan fill="#79c0ff">"name"</tspan><tspan fill="#c9d1d9">: </tspan><tspan fill="#a5d6ff">"Backend &amp; DevOps"</tspan><tspan fill="#c9d1d9">,</tspan></text>
+  <!-- 17 --> <text class="mono" x="20" y="346"><tspan fill="#c9d1d9">      </tspan><tspan fill="#79c0ff">"items"</tspan><tspan fill="#c9d1d9">: [</tspan><tspan fill="#a5d6ff">"Node.js"</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">"GraphQL"</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">"AWS"</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">"Docker"</tspan><tspan fill="#c9d1d9">]</tspan></text>
+  <!-- 18 --> <text class="mono" x="20" y="364"><tspan fill="#c9d1d9">    }</tspan></text>
+  <!-- 19 --> <text class="mono" x="20" y="382"><tspan fill="#c9d1d9">  ],</tspan></text>
+  <!-- 20 --> <text class="mono" x="20" y="400"><tspan fill="#c9d1d9">  </tspan><tspan fill="#79c0ff">"contact"</tspan><tspan fill="#c9d1d9">: </tspan><tspan fill="#a5d6ff">"welaquino202122@gmail.com"</tspan></text>
+  <!-- 21 --> <text class="mono" x="20" y="418"><tspan fill="#c9d1d9">}</tspan></text>
+  <!-- 22 --> <text class="mono" x="20" y="436"><tspan fill="#3fb950">/wellington</tspan><tspan fill="#c9d1d9"> $ </tspan></text>
 
-  <!-- ═══ COVER RECTANGLES (slide right to reveal text) ═══ -->
+  <!-- ═══ COVER RECTS (slide right, slower timing) ═══ -->
 
-  <rect x="20" y="50" width="640" height="22" fill="#0d1117">
-    <animate attributeName="x" from="20" to="660" begin="0.3s" dur="1.0s" fill="freeze"/>
-  </rect>
-  <rect x="20" y="72" width="640" height="22" fill="#0d1117">
-    <animate attributeName="x" from="20" to="660" begin="1.5s" dur="0.1s" fill="freeze"/>
-  </rect>
-  <rect x="20" y="94" width="640" height="22" fill="#0d1117">
-    <animate attributeName="x" from="20" to="660" begin="1.7s" dur="0.7s" fill="freeze"/>
-  </rect>
-  <rect x="20" y="116" width="640" height="22" fill="#0d1117">
-    <animate attributeName="x" from="20" to="660" begin="2.5s" dur="0.7s" fill="freeze"/>
-  </rect>
-  <rect x="20" y="138" width="640" height="22" fill="#0d1117">
-    <animate attributeName="x" from="20" to="660" begin="3.3s" dur="0.5s" fill="freeze"/>
-  </rect>
-  <rect x="20" y="160" width="640" height="22" fill="#0d1117">
-    <animate attributeName="x" from="20" to="660" begin="3.9s" dur="1.2s" fill="freeze"/>
-  </rect>
-  <rect x="20" y="182" width="640" height="22" fill="#0d1117">
-    <animate attributeName="x" from="20" to="660" begin="5.2s" dur="1.1s" fill="freeze"/>
-  </rect>
-  <rect x="20" y="204" width="640" height="22" fill="#0d1117">
-    <animate attributeName="x" from="20" to="660" begin="6.4s" dur="0.8s" fill="freeze"/>
-  </rect>
-  <rect x="20" y="226" width="640" height="22" fill="#0d1117">
-    <animate attributeName="x" from="20" to="660" begin="7.3s" dur="0.9s" fill="freeze"/>
-  </rect>
-  <rect x="20" y="248" width="640" height="22" fill="#0d1117">
-    <animate attributeName="x" from="20" to="660" begin="8.3s" dur="0.9s" fill="freeze"/>
-  </rect>
-  <rect x="20" y="270" width="640" height="22" fill="#0d1117">
-    <animate attributeName="x" from="20" to="660" begin="9.3s" dur="0.9s" fill="freeze"/>
-  </rect>
-  <rect x="20" y="292" width="640" height="22" fill="#0d1117">
-    <animate attributeName="x" from="20" to="660" begin="10.3s" dur="0.1s" fill="freeze"/>
-  </rect>
-  <rect x="20" y="314" width="640" height="22" fill="#0d1117">
-    <animate attributeName="x" from="20" to="660" begin="10.5s" dur="0.5s" fill="freeze"/>
-  </rect>
+  <rect x="20" y="44"  width="640" height="17" fill="#0d1117"><animate attributeName="x" from="20" to="660" begin="0.3s"  dur="1.5s" fill="freeze"/></rect>
+  <rect x="20" y="62"  width="640" height="17" fill="#0d1117"><animate attributeName="x" from="20" to="660" begin="2.0s"  dur="0.2s" fill="freeze"/></rect>
+  <rect x="20" y="80"  width="640" height="17" fill="#0d1117"><animate attributeName="x" from="20" to="660" begin="2.4s"  dur="1.2s" fill="freeze"/></rect>
+  <rect x="20" y="98"  width="640" height="17" fill="#0d1117"><animate attributeName="x" from="20" to="660" begin="3.7s"  dur="1.3s" fill="freeze"/></rect>
+  <rect x="20" y="116" width="640" height="17" fill="#0d1117"><animate attributeName="x" from="20" to="660" begin="5.1s"  dur="1.0s" fill="freeze"/></rect>
+  <rect x="20" y="134" width="640" height="17" fill="#0d1117"><animate attributeName="x" from="20" to="660" begin="6.2s"  dur="1.0s" fill="freeze"/></rect>
+  <rect x="20" y="152" width="640" height="17" fill="#0d1117"><animate attributeName="x" from="20" to="660" begin="7.3s"  dur="0.2s" fill="freeze"/></rect>
+  <rect x="20" y="170" width="640" height="17" fill="#0d1117"><animate attributeName="x" from="20" to="660" begin="7.6s"  dur="1.0s" fill="freeze"/></rect>
+  <rect x="20" y="188" width="640" height="17" fill="#0d1117"><animate attributeName="x" from="20" to="660" begin="8.7s"  dur="1.8s" fill="freeze"/></rect>
+  <rect x="20" y="206" width="640" height="17" fill="#0d1117"><animate attributeName="x" from="20" to="660" begin="10.6s" dur="0.2s" fill="freeze"/></rect>
+  <rect x="20" y="224" width="640" height="17" fill="#0d1117"><animate attributeName="x" from="20" to="660" begin="10.9s" dur="0.2s" fill="freeze"/></rect>
+  <rect x="20" y="242" width="640" height="17" fill="#0d1117"><animate attributeName="x" from="20" to="660" begin="11.2s" dur="1.0s" fill="freeze"/></rect>
+  <rect x="20" y="260" width="640" height="17" fill="#0d1117"><animate attributeName="x" from="20" to="660" begin="12.3s" dur="1.6s" fill="freeze"/></rect>
+  <rect x="20" y="278" width="640" height="17" fill="#0d1117"><animate attributeName="x" from="20" to="660" begin="14.0s" dur="0.2s" fill="freeze"/></rect>
+  <rect x="20" y="296" width="640" height="17" fill="#0d1117"><animate attributeName="x" from="20" to="660" begin="14.3s" dur="0.2s" fill="freeze"/></rect>
+  <rect x="20" y="314" width="640" height="17" fill="#0d1117"><animate attributeName="x" from="20" to="660" begin="14.6s" dur="1.2s" fill="freeze"/></rect>
+  <rect x="20" y="332" width="640" height="17" fill="#0d1117"><animate attributeName="x" from="20" to="660" begin="15.9s" dur="1.8s" fill="freeze"/></rect>
+  <rect x="20" y="350" width="640" height="17" fill="#0d1117"><animate attributeName="x" from="20" to="660" begin="17.8s" dur="0.2s" fill="freeze"/></rect>
+  <rect x="20" y="368" width="640" height="17" fill="#0d1117"><animate attributeName="x" from="20" to="660" begin="18.1s" dur="0.2s" fill="freeze"/></rect>
+  <rect x="20" y="386" width="640" height="17" fill="#0d1117"><animate attributeName="x" from="20" to="660" begin="18.4s" dur="1.4s" fill="freeze"/></rect>
+  <rect x="20" y="404" width="640" height="17" fill="#0d1117"><animate attributeName="x" from="20" to="660" begin="19.9s" dur="0.2s" fill="freeze"/></rect>
+  <rect x="20" y="422" width="640" height="17" fill="#0d1117"><animate attributeName="x" from="20" to="660" begin="20.2s" dur="1.0s" fill="freeze"/></rect>
 
   <!-- Blinking cursor -->
-  <rect x="160" y="317" width="8" height="14" fill="#c9d1d9" opacity="0" style="animation: blink 1s step-end 11s infinite;">
-    <set attributeName="opacity" to="1" begin="11s"/>
+  <rect x="132" y="423" width="8" height="13" fill="#c9d1d9" opacity="0" style="animation: blink 1s step-end 21.5s infinite;">
+    <set attributeName="opacity" to="1" begin="21.5s"/>
   </rect>
 </svg>
